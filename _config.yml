@@ -11,8 +11,8 @@ title                    : "Color Life IA"
 title_separator          : "&middot;"
 name                     : "Liz Kecso"
 description              : "An amazing website."
-url                      : http://cassidyjames.com
-baseurl                  : /colorlifeia.com # the subpath of your site, e.g. "/blog"
+url                      : http://colorlifeia.com
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : cassidyjames/colorlifeia.com # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -81,7 +81,7 @@ author:
   avatar           : "bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Iowa"
-  email            :
+  email            : liz@colorlifeia.com
   uri              :
   bitbucket        :
   codepen          :
