@@ -7,6 +7,13 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% for page in site.pages %}
+            {% if page.title %}
+              {% if page.url != '/404.html' %}
+                <li class="masthead__menu-item"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
