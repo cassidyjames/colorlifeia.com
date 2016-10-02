@@ -1,8 +1,8 @@
 ---
-title: Testing 123
+title: Katie Blaede is the coolest
 date: 2016-10-02 00:00:00 Z
 ---
 
-# Test test
+# That's right
 
-This is a sample post.
+She's my fave person EVERRRRRR
